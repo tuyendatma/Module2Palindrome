@@ -6,6 +6,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 public class Palindrome {
     public static void main(String[] args) {
         String string1 = "Able was I ere I saw Elba".toLowerCase();
+        //add comment
         String[] arr =string1.split("");
 //        System.out.println(Arrays.toString(arr));
         Stack<String> stack = new Stack<>();
